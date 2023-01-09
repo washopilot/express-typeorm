@@ -31,5 +31,19 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "b4e74f02-20f4-478d-9a0a-d8da050c9292",
+    "colId": "302e9c6d-d6cf-4c90-88b3-83234fd7caf1",
+    "containerId": "",
+    "name": "users",
+    "url": "/users/4",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2023-01-09T15:31:46.901Z",
+    "modified": "2023-01-09T15:32:09.735Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
