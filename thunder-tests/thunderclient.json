@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "26349bcd-db87-4e47-bc13-b8326747b280",
+    "colId": "302e9c6d-d6cf-4c90-88b3-83234fd7caf1",
+    "containerId": "",
+    "name": "users",
+    "url": "/users",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-01-09T13:05:11.572Z",
+    "modified": "2023-01-09T13:12:29.045Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"firstName\": \"Fernando\",\n  \"lastName\": \"Chicaiza\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "805fb5a5-9cf9-429b-99ba-19862583b700",
+    "colId": "302e9c6d-d6cf-4c90-88b3-83234fd7caf1",
+    "containerId": "",
+    "name": "users",
+    "url": "/users",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2023-01-09T13:18:32.960Z",
+    "modified": "2023-01-09T13:19:02.529Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

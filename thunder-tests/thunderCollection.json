@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "302e9c6d-d6cf-4c90-88b3-83234fd7caf1",
+    "colName": "tests",
+    "created": "2023-01-09T13:03:40.022Z",
+    "sortNum": 10000,
+    "folders": [],
+    "settings": {
+      "headers": [],
+      "tests": [],
+      "options": {
+        "baseUrl": "http://localhost:3000"
+      }
+    }
+  }
+]
