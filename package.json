@@ -1,0 +1,14 @@
+{
+    "name": "express-typeorm",
+    "version": "1.0.0",
+    "description": "simple example typeorm",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node dist/app.js",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.4"
+    }
+}
