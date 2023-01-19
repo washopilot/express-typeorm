@@ -1,7 +1,7 @@
-import express from 'express';
-import { Request, Response } from 'express';
-import { User } from './entity/user.entity';
+import express, { Request, Response } from 'express';
+import 'reflect-metadata';
 import myDataSource from './app-data-source';
+import { User } from './entity/user.entity';
 
 // establish database connection
 myDataSource
