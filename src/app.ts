@@ -1,17 +1,7 @@
 import express, { Request, Response } from 'express';
-import 'reflect-metadata';
+
 import myDataSource from './app-data-source';
 import { User } from './entity/user.entity';
-
-// establish database connection
-myDataSource
-    .initialize()
-    .then(() => {
-        console.log('Data Source has been initialized!');
-    })
-    .catch((err) => {
-        console.error('Error during Data Source initialization:', err);
-    });
 
 // create and setup express app
 const app = express();
@@ -50,5 +40,4 @@ app.delete('/users/:id', async function (req: Request, res: Response) {
     return res.send(results);
 });
 
-// start express server
-app.listen(3000);
+export default app;
