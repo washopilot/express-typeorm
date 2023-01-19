@@ -1,5 +1,5 @@
-import path from 'path';
 import { DataSource } from 'typeorm';
+import { User } from './entity/user.entity';
 
 const myDataSource = new DataSource({
     type: 'mysql',
@@ -8,7 +8,7 @@ const myDataSource = new DataSource({
     username: 'root',
     password: 'root1979',
     database: 'typeorm-db',
-    entities: [path.join(__dirname, '**/*.entity{.ts,.js}')],
+    entities: [User],
     logging: true,
     synchronize: true
 });
