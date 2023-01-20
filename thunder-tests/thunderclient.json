@@ -45,5 +45,24 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "0505a23c-eb1b-4657-9256-90bb303fcc85",
+    "colId": "302e9c6d-d6cf-4c90-88b3-83234fd7caf1",
+    "containerId": "",
+    "name": "users",
+    "url": "/users/2",
+    "method": "PUT",
+    "sortNum": 50000,
+    "created": "2023-01-20T01:16:24.186Z",
+    "modified": "2023-01-20T01:17:33.103Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"firstName\": \"Washington\",\n  \"lastName\": \"Chicaiza Cruz\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
